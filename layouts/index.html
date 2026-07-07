@@ -1,0 +1,177 @@
+{{ define "main" }}
+
+{{ partial "jsonld-org.html" . }}
+
+{{/* 1. Hero */}}
+<section class="hero section">
+  <div class="container hero-inner">
+    <div class="hero-wordmark" aria-hidden="true">
+      <span class="hero-ai hero-ai--1">ai</span><span class="hero-dot hero-dot--1">&middot;</span><span class="hero-ai hero-ai--2">ai</span><span class="hero-dot hero-dot--2">&middot;</span><span class="hero-ai hero-ai--3">ai</span>
+      <span class="hero-ads">ads</span>
+    </div>
+    <h1>{{ .Params.hero_h1 }}</h1>
+    <p class="hero-sub">{{ .Params.hero_sub }}</p>
+    <div class="hero-ctas">
+      <a href="{{ site.Params.placeholders.SIGNUP_ADVERTISER_URL }}" class="btn btn--primary">{{ i18n "cta_advertise" }}</a>
+      <a href="{{ site.Params.placeholders.SIGNUP_PUBLISHER_URL }}" class="btn btn--earn">{{ i18n "cta_earn" }}</a>
+    </div>
+  </div>
+</section>
+
+{{/* 2. Two doors */}}
+<section class="section two-doors-section">
+  <div class="container">
+    <div class="grid grid-2 two-doors">
+      {{ range .Params.two_doors }}
+      <div class="card two-door two-door--{{ .side }}">
+        <h2>{{ .heading }}</h2>
+        <p>{{ .text }}</p>
+        <a href="{{ .cta_url }}" class="btn {{ if eq .side "advertiser" }}btn--primary{{ else }}btn--earn{{ end }}">{{ .cta_text }}</a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{/* 3. Numbers strip */}}
+<section class="numbers-strip">
+  <div class="container">
+    <div class="grid grid-4 stats-grid">
+      {{ range .Params.stats }}
+      <div class="stat-tile">
+        <span class="stat-number" data-countup>{{ partial "placeholder.html" (dict "key" .key "site" site) }}</span>
+        <span class="stat-label">{{ .label }}</span>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{/* 4. Format showcase — tabbed */}}
+<section class="section format-showcase">
+  <div class="container">
+    <h2>{{ i18n "nav_formats" }}</h2>
+    <div class="tabs" data-tabs>
+      <div class="tab-list" role="tablist">
+        <button role="tab" aria-selected="true" aria-controls="tab-panel-adv" id="tab-adv" class="tab-btn tab-btn--adv">{{ i18n "for_advertisers" }}</button>
+        <button role="tab" aria-selected="false" aria-controls="tab-panel-pub" id="tab-pub" class="tab-btn tab-btn--pub" tabindex="-1">{{ i18n "for_publishers" }}</button>
+      </div>
+
+      <div role="tabpanel" id="tab-panel-adv" aria-labelledby="tab-adv" class="tab-panel">
+        <p class="format-intro">{{ .Params.format_showcase_adv_intro }}</p>
+        <div class="grid grid-2 format-cards">
+          {{ range .Params.format_cards_adv }}
+          <div class="card format-card">
+            <h3>{{ .name }}</h3>
+            <p>{{ .text }}</p>
+            <div class="format-card-footer">
+              <span class="format-pricing">{{ .pricing }}</span>
+              <a href="{{ .url }}" class="btn btn--ghost btn--sm">{{ i18n "learn_more" }}</a>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+
+      <div role="tabpanel" id="tab-panel-pub" aria-labelledby="tab-pub" class="tab-panel" hidden>
+        <p class="format-intro">{{ .Params.format_showcase_pub_intro }}</p>
+        <div class="grid grid-2 format-cards">
+          {{ range .Params.format_cards_pub }}
+          <div class="card format-card">
+            <h3>{{ .name }}</h3>
+            <p>{{ .text }}</p>
+            <div class="format-card-footer">
+              <a href="{{ .url }}" class="btn btn--ghost btn--sm">{{ i18n "learn_more" }}</a>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* 5. Why us */}}
+<section class="section why-us">
+  <div class="container">
+    <div class="section-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+    <h2>{{ i18n "why_us_heading" }}</h2>
+    <div class="grid grid-3 benefit-grid">
+      {{ range .Params.benefits }}
+      <div class="card benefit-tile">
+        <h3>{{ .title }}</h3>
+        <p>{{ .text }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{/* 6. How it works */}}
+<section class="section how-it-works">
+  <div class="container">
+    <h2>{{ i18n "how_it_works" }}</h2>
+    <div class="grid grid-2 hiw-grid">
+      <div class="hiw-col hiw-col--adv">
+        <h3>{{ i18n "for_advertisers" }}</h3>
+        <ol class="hiw-steps">
+          {{ range .Params.how_it_works_adv }}
+          <li>
+            <span class="hiw-step-num">{{ .step }}</span>
+            <span>{{ .text }}</span>
+          </li>
+          {{ end }}
+        </ol>
+      </div>
+      <div class="hiw-col hiw-col--pub">
+        <h3>{{ i18n "for_publishers" }}</h3>
+        <ol class="hiw-steps">
+          {{ range .Params.how_it_works_pub }}
+          <li>
+            <span class="hiw-step-num">{{ .step }}</span>
+            <span>{{ .text }}</span>
+          </li>
+          {{ end }}
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* 7. Testimonials */}}
+<section class="section testimonials-section">
+  <div class="container">
+    <div class="grid grid-3 testimonial-grid">
+      {{ range .Params.testimonials }}
+      <blockquote class="card testimonial-card">
+        <p>&ldquo;{{ partial "placeholder.html" (dict "key" .quote_key "site" site) }}&rdquo;</p>
+        <footer>
+          <strong>{{ partial "placeholder.html" (dict "key" .name_key "site" site) }}</strong>, {{ .role }}
+        </footer>
+      </blockquote>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{/* 8. FAQ teaser */}}
+<section class="section faq-teaser">
+  <div class="container">
+    <h2>{{ i18n "nav_faq" }}</h2>
+    <div class="faq-teaser-list">
+      {{ range .Params.faq_teaser }}
+      <details class="faq-item">
+        <summary>{{ .q }}</summary>
+        <div class="faq-answer"><p>{{ .a }}</p></div>
+      </details>
+      {{ end }}
+    </div>
+    <div style="text-align:center; margin-top:2rem;">
+      <a href="{{ "faq/" | relLangURL }}" class="btn btn--ghost">{{ i18n "all_faq" }}</a>
+    </div>
+  </div>
+</section>
+
+{{/* 9. CTA band — already in baseof.html */}}
+
+{{ end }}

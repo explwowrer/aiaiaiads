@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ .Language.LanguageCode }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  {{ partial "header.html" . }}
+  <main id="main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "cta-band.html" . }}
+  {{ partial "footer.html" . }}
+  {{ $js := resources.Get "js/main.js" }}
+  {{ if $js }}
+    {{ $jsBuilt := $js | minify | fingerprint }}
+    <script src="{{ $jsBuilt.RelPermalink }}" integrity="{{ $jsBuilt.Data.Integrity }}" defer></script>
+  {{ end }}
+</body>
+</html>

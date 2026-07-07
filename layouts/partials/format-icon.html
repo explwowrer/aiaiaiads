@@ -1,0 +1,19 @@
+{{/* Simple CSS-based format icon indicators */}}
+{{ $icon := .Params.format_icon | default "default" }}
+{{ if eq $icon "popunder" }}
+  <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect x="4" y="8" width="24" height="20" rx="3" stroke="var(--ultramarine)" stroke-width="2"/><rect x="12" y="12" width="24" height="20" rx="3" fill="var(--paper)" stroke="var(--ultramarine)" stroke-width="2"/></svg>
+{{ else if eq $icon "inpage-push" }}
+  <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect x="6" y="6" width="28" height="28" rx="6" stroke="var(--ultramarine)" stroke-width="2"/><circle cx="14" cy="20" r="4" fill="var(--signal)"/><line x1="22" y1="17" x2="30" y2="17" stroke="var(--ultramarine)" stroke-width="2" stroke-linecap="round"/><line x1="22" y1="23" x2="28" y2="23" stroke="var(--line)" stroke-width="2" stroke-linecap="round"/></svg>
+{{ else if eq $icon "interstitial" }}
+  <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect x="6" y="4" width="28" height="32" rx="4" stroke="var(--ultramarine)" stroke-width="2"/><line x1="28" y1="10" x2="32" y2="10" stroke="var(--ultramarine)" stroke-width="2" stroke-linecap="round"/><line x1="30" y1="8" x2="30" y2="12" stroke="var(--ultramarine)" stroke-width="2" stroke-linecap="round" transform="rotate(45 30 10)"/><rect x="12" y="16" width="16" height="8" rx="2" fill="var(--paper)" stroke="var(--line)" stroke-width="1.5"/></svg>
+{{ else if eq $icon "banner" }}
+  <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect x="4" y="12" width="32" height="16" rx="3" stroke="var(--ultramarine)" stroke-width="2"/><line x1="12" y1="18" x2="28" y2="18" stroke="var(--line)" stroke-width="2" stroke-linecap="round"/><line x1="12" y1="22" x2="24" y2="22" stroke="var(--line)" stroke-width="2" stroke-linecap="round"/></svg>
+{{ else if eq $icon "native" }}
+  <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect x="6" y="6" width="12" height="12" rx="3" stroke="var(--ultramarine)" stroke-width="2"/><rect x="22" y="6" width="12" height="12" rx="3" stroke="var(--ultramarine)" stroke-width="2"/><rect x="6" y="22" width="12" height="12" rx="3" stroke="var(--ultramarine)" stroke-width="2"/><rect x="22" y="22" width="12" height="12" rx="3" fill="var(--paper)" stroke="var(--jade)" stroke-width="2"/></svg>
+{{ else if eq $icon "direct-link" }}
+  <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M16 24l8-8" stroke="var(--ultramarine)" stroke-width="2" stroke-linecap="round"/><path d="M22 18l4-4a4 4 0 015.66 5.66l-4 4" stroke="var(--ultramarine)" stroke-width="2" stroke-linecap="round"/><path d="M18 22l-4 4a4 4 0 005.66 5.66l4-4" stroke="var(--jade)" stroke-width="2" stroke-linecap="round"/></svg>
+{{ else if eq $icon "pulse-widget" }}
+  <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="14" stroke="var(--ultramarine)" stroke-width="2"/><circle cx="20" cy="20" r="6" fill="var(--signal)"/><circle cx="20" cy="20" r="10" stroke="var(--signal)" stroke-width="1.5" stroke-dasharray="4 3"/></svg>
+{{ else }}
+  <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect x="6" y="6" width="28" height="28" rx="6" stroke="var(--ultramarine)" stroke-width="2"/></svg>
+{{ end }}

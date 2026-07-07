@@ -1,0 +1,13 @@
+public/
+resources/_gen/
+.hugo_build.lock
+.DS_Store
+node_modules/
+
+aiaiaiads-kit/
+aiaiaiads-kit.zip
+02-sitemap.md
+03-design-brief.md
+04-content-en.md
+05-prompts-claude-code.md
+06-translation-guide.md

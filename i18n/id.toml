@@ -1,0 +1,170 @@
+[nav_advertisers]
+other = "Advertiser"
+
+[nav_publishers]
+other = "Publisher"
+
+[nav_formats]
+other = "Format Iklan"
+
+[nav_resources]
+other = "Sumber Daya"
+
+[nav_faq]
+other = "FAQ"
+
+[cta_advertise]
+other = "Luncurkan kampanye"
+
+[cta_earn]
+other = "Monetisasi traffic Anda"
+
+[cta_signup]
+other = "Daftar"
+
+[cta_login]
+other = "Masuk"
+
+[login_as_adv]
+other = "Sebagai advertiser"
+
+[login_as_pub]
+other = "Sebagai publisher"
+
+[learn_more]
+other = "Pelajari lebih lanjut"
+
+[live_demo]
+other = "Demo langsung"
+
+[for_advertisers]
+other = "Untuk advertiser"
+
+[for_publishers]
+other = "Untuk publisher"
+
+[read_more]
+other = "Baca selengkapnya"
+
+[all_posts]
+other = "Semua artikel"
+
+[footer_company]
+other = "Perusahaan"
+
+[footer_follow]
+other = "Ikuti kami"
+
+[footer_contacts]
+other = "Kontak"
+
+[form_name]
+other = "Nama Anda"
+
+[form_email]
+other = "Email"
+
+[form_role]
+other = "Saya adalah..."
+
+[form_message]
+other = "Pesan"
+
+[form_send]
+other = "Kirim pesan"
+
+[notfound_title]
+other = "Halaman ini sedang mencari traffic yang lebih baik."
+
+[notfound_cta]
+other = "Kembali ke beranda"
+
+[lang_label]
+other = "Bahasa"
+
+[cta_band_title]
+other = "Siap untuk berkembang?"
+
+[cta_band_advertise]
+other = "Beli traffic"
+
+[cta_band_earn]
+other = "Mulai hasilkan uang"
+
+[form_role_advertiser]
+other = "Advertiser"
+
+[form_role_publisher]
+other = "Publisher"
+
+[form_role_other]
+other = "Lainnya"
+
+[blog_published]
+other = "Diterbitkan"
+
+[legal_draft_banner]
+other = "DRAF — memerlukan tinjauan hukum sebelum publikasi."
+
+[breadcrumb_home]
+other = "Beranda"
+
+[do_heading]
+other = "Lakukan"
+
+[dont_heading]
+other = "Jangan"
+
+[specs_heading]
+other = "Spesifikasi"
+
+[related_formats]
+other = "Format terkait"
+
+[why_us_heading]
+other = "Mengapa aiaiaiads"
+
+[how_it_works]
+other = "Cara kerja"
+
+[all_faq]
+other = "Semua pertanyaan"
+
+[aria_navigation]
+other = "Navigasi"
+
+[aria_breadcrumb]
+other = "Breadcrumb"
+
+[aria_open_menu]
+other = "Buka menu"
+
+[aria_close_menu]
+other = "Tutup menu"
+
+[footer_blog]
+other = "Blog"
+
+[footer_privacy]
+other = "Privasi"
+
+[footer_terms]
+other = "Ketentuan"
+
+[footer_cookies]
+other = "Cookie"
+
+[spec_trigger]
+other = "Pemicu"
+
+[spec_placement]
+other = "Penempatan"
+
+[spec_devices]
+other = "Perangkat"
+
+[spec_pricing]
+other = "Harga"
+
+[spec_verticals]
+other = "Vertikal terbaik"

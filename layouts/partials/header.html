@@ -1,0 +1,87 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="{{ .Site.Home.RelPermalink }}" class="logo" aria-label="aiaiaiads home">
+      ai<span class="logo-dot">&middot;</span>ai<span class="logo-dot">&middot;</span>ai<span class="logo-dot">&middot;</span>ads
+    </a>
+
+    <nav class="main-nav" aria-label="{{ i18n "aria_navigation" }}">
+      {{ range .Site.Menus.main }}
+        {{ if .HasChildren }}
+          <div class="nav-item">
+            <button type="button" aria-expanded="false" aria-haspopup="true">
+              {{ .Name }}
+              <svg class="dropdown-arrow" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+                <path d="M3 5l3 3 3-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </button>
+            <div class="nav-dropdown">
+              {{ range .Children }}
+                <a href="{{ .URL }}">{{ .Name }}</a>
+              {{ end }}
+            </div>
+          </div>
+        {{ else }}
+          <div class="nav-item">
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          </div>
+        {{ end }}
+      {{ end }}
+    </nav>
+
+    <div class="header-actions">
+      {{ partial "lang-switcher.html" . }}
+
+      <div class="nav-item">
+        <button type="button" class="btn btn--ghost" style="padding: 0.5rem 1rem; font-size: 0.875rem;">
+          {{ i18n "cta_login" }}
+          <svg class="dropdown-arrow" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+            <path d="M3 5l3 3 3-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <div class="nav-dropdown" style="right:0; left:auto;">
+          <a href="{{ site.Params.placeholders.LOGIN_ADVERTISER_URL }}">{{ i18n "login_as_adv" }}</a>
+          <a href="{{ site.Params.placeholders.LOGIN_PUBLISHER_URL }}">{{ i18n "login_as_pub" }}</a>
+        </div>
+      </div>
+
+      <a href="{{ site.Params.placeholders.SIGNUP_ADVERTISER_URL }}" class="btn btn--primary" style="padding: 0.5rem 1.25rem; font-size: 0.875rem;">
+        {{ i18n "cta_signup" }}
+      </a>
+    </div>
+
+    <button class="mobile-nav-toggle" aria-label="{{ i18n "aria_open_menu" }}" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M3 12h18M3 6h18M3 18h18" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav" role="dialog" aria-label="{{ i18n "aria_navigation" }}">
+  <div class="mobile-nav-header">
+    <a href="{{ .Site.Home.RelPermalink }}" class="logo">
+      ai<span class="logo-dot">&middot;</span>ai<span class="logo-dot">&middot;</span>ai<span class="logo-dot">&middot;</span>ads
+    </a>
+    <button class="mobile-nav-close" aria-label="{{ i18n "aria_close_menu" }}">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M18 6L6 18M6 6l12 12" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </div>
+  <div class="mobile-nav-links">
+    {{ range .Site.Menus.main }}
+      {{ if .HasChildren }}
+        {{ range .Children }}
+          <a href="{{ .URL }}" class="mobile-sub-link">{{ .Name }}</a>
+        {{ end }}
+      {{ else }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    {{ end }}
+  </div>
+  <div class="mobile-nav-actions">
+    {{ partial "lang-switcher.html" . }}
+    <a href="{{ site.Params.placeholders.LOGIN_ADVERTISER_URL }}" class="btn btn--ghost">{{ i18n "cta_login" }}</a>
+    <a href="{{ site.Params.placeholders.SIGNUP_ADVERTISER_URL }}" class="btn btn--primary">{{ i18n "cta_signup" }}</a>
+  </div>
+</div>

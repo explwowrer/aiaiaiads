@@ -1,0 +1,7 @@
+{{- $key := .key | lower -}}
+{{- $placeholders := site.Params.placeholders -}}
+{{- if isset $placeholders $key -}}
+  {{- index $placeholders $key -}}
+{{- else -}}
+  {{- printf "[[%s]]" .key -}}
+{{- end -}}

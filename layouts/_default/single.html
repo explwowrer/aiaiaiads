@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<article class="section">
+  <div class="container prose">
+    {{/* Legal draft banner */}}
+    {{ if .Params.legal_draft }}
+    <div class="legal-draft-banner" role="alert">
+      {{ i18n "legal_draft_banner" }}
+    </div>
+    {{ end }}
+
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </div>
+</article>
+
+{{ end }}

@@ -1,0 +1,170 @@
+[nav_advertisers]
+other = "Рекламодателям"
+
+[nav_publishers]
+other = "Паблишерам"
+
+[nav_formats]
+other = "Форматы рекламы"
+
+[nav_resources]
+other = "Ресурсы"
+
+[nav_faq]
+other = "FAQ"
+
+[cta_advertise]
+other = "Запустить кампанию"
+
+[cta_earn]
+other = "Монетизировать трафик"
+
+[cta_signup]
+other = "Зарегистрироваться"
+
+[cta_login]
+other = "Войти"
+
+[login_as_adv]
+other = "Как рекламодатель"
+
+[login_as_pub]
+other = "Как паблишер"
+
+[learn_more]
+other = "Подробнее"
+
+[live_demo]
+other = "Живой пример"
+
+[for_advertisers]
+other = "Для рекламодателей"
+
+[for_publishers]
+other = "Для паблишеров"
+
+[read_more]
+other = "Читать далее"
+
+[all_posts]
+other = "Все статьи"
+
+[footer_company]
+other = "Компания"
+
+[footer_follow]
+other = "Мы в соцсетях"
+
+[footer_contacts]
+other = "Контакты"
+
+[form_name]
+other = "Ваше имя"
+
+[form_email]
+other = "Email"
+
+[form_role]
+other = "Я —"
+
+[form_message]
+other = "Сообщение"
+
+[form_send]
+other = "Отправить"
+
+[notfound_title]
+other = "Эта страница ушла искать трафик получше."
+
+[notfound_cta]
+other = "На главную"
+
+[lang_label]
+other = "Язык"
+
+[cta_band_title]
+other = "Готовы расти?"
+
+[cta_band_advertise]
+other = "Купить трафик"
+
+[cta_band_earn]
+other = "Начать зарабатывать"
+
+[form_role_advertiser]
+other = "Рекламодатель"
+
+[form_role_publisher]
+other = "Паблишер"
+
+[form_role_other]
+other = "Другое"
+
+[blog_published]
+other = "Опубликовано"
+
+[legal_draft_banner]
+other = "ЧЕРНОВИК — требуется юридическая проверка перед публикацией."
+
+[breadcrumb_home]
+other = "Главная"
+
+[do_heading]
+other = "Рекомендуется"
+
+[dont_heading]
+other = "Не рекомендуется"
+
+[specs_heading]
+other = "Характеристики"
+
+[related_formats]
+other = "Похожие форматы"
+
+[why_us_heading]
+other = "Почему aiaiaiads"
+
+[how_it_works]
+other = "Как это работает"
+
+[all_faq]
+other = "Все вопросы"
+
+[aria_navigation]
+other = "Навигация"
+
+[aria_breadcrumb]
+other = "Хлебные крошки"
+
+[aria_open_menu]
+other = "Открыть меню"
+
+[aria_close_menu]
+other = "Закрыть меню"
+
+[footer_blog]
+other = "Блог"
+
+[footer_privacy]
+other = "Конфиденциальность"
+
+[footer_terms]
+other = "Условия"
+
+[footer_cookies]
+other = "Cookies"
+
+[spec_trigger]
+other = "Триггер"
+
+[spec_placement]
+other = "Размещение"
+
+[spec_devices]
+other = "Устройства"
+
+[spec_pricing]
+other = "Модель оплаты"
+
+[spec_verticals]
+other = "Лучшие вертикали"

@@ -1,0 +1,170 @@
+[nav_advertisers]
+other = "Advertisers"
+
+[nav_publishers]
+other = "Publishers"
+
+[nav_formats]
+other = "Ad Formats"
+
+[nav_resources]
+other = "Resources"
+
+[nav_faq]
+other = "FAQ"
+
+[cta_advertise]
+other = "Launch a campaign"
+
+[cta_earn]
+other = "Monetize my traffic"
+
+[cta_signup]
+other = "Sign up"
+
+[cta_login]
+other = "Log in"
+
+[login_as_adv]
+other = "As an advertiser"
+
+[login_as_pub]
+other = "As a publisher"
+
+[learn_more]
+other = "Learn more"
+
+[live_demo]
+other = "Live demo"
+
+[for_advertisers]
+other = "For advertisers"
+
+[for_publishers]
+other = "For publishers"
+
+[read_more]
+other = "Read more"
+
+[all_posts]
+other = "All posts"
+
+[footer_company]
+other = "Company"
+
+[footer_follow]
+other = "Follow us"
+
+[footer_contacts]
+other = "Contacts"
+
+[form_name]
+other = "Your name"
+
+[form_email]
+other = "Email"
+
+[form_role]
+other = "I am a…"
+
+[form_message]
+other = "Message"
+
+[form_send]
+other = "Send message"
+
+[notfound_title]
+other = "This page went to look for better traffic."
+
+[notfound_cta]
+other = "Back to homepage"
+
+[lang_label]
+other = "Language"
+
+[cta_band_title]
+other = "Ready to grow?"
+
+[cta_band_advertise]
+other = "Buy traffic"
+
+[cta_band_earn]
+other = "Start earning"
+
+[form_role_advertiser]
+other = "Advertiser"
+
+[form_role_publisher]
+other = "Publisher"
+
+[form_role_other]
+other = "Other"
+
+[blog_published]
+other = "Published"
+
+[legal_draft_banner]
+other = "DRAFT — requires legal review before publication."
+
+[breadcrumb_home]
+other = "Home"
+
+[do_heading]
+other = "Do"
+
+[dont_heading]
+other = "Don't"
+
+[specs_heading]
+other = "Specifications"
+
+[related_formats]
+other = "Related formats"
+
+[why_us_heading]
+other = "Why aiaiaiads"
+
+[how_it_works]
+other = "How it works"
+
+[all_faq]
+other = "All questions"
+
+[aria_navigation]
+other = "Navigation"
+
+[aria_breadcrumb]
+other = "Breadcrumb"
+
+[aria_open_menu]
+other = "Open menu"
+
+[aria_close_menu]
+other = "Close menu"
+
+[footer_blog]
+other = "Blog"
+
+[footer_privacy]
+other = "Privacy"
+
+[footer_terms]
+other = "Terms"
+
+[footer_cookies]
+other = "Cookies"
+
+[spec_trigger]
+other = "Trigger"
+
+[spec_placement]
+other = "Placement"
+
+[spec_devices]
+other = "Devices"
+
+[spec_pricing]
+other = "Pricing"
+
+[spec_verticals]
+other = "Best verticals"

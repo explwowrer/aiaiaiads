@@ -1,0 +1,170 @@
+[nav_advertisers]
+other = "广告主"
+
+[nav_publishers]
+other = "流量主"
+
+[nav_formats]
+other = "广告格式"
+
+[nav_resources]
+other = "资源"
+
+[nav_faq]
+other = "常见问题"
+
+[cta_advertise]
+other = "立即投放"
+
+[cta_earn]
+other = "开始变现"
+
+[cta_signup]
+other = "注册"
+
+[cta_login]
+other = "登录"
+
+[login_as_adv]
+other = "广告主登录"
+
+[login_as_pub]
+other = "流量主登录"
+
+[learn_more]
+other = "了解更多"
+
+[live_demo]
+other = "在线演示"
+
+[for_advertisers]
+other = "广告主专区"
+
+[for_publishers]
+other = "流量主专区"
+
+[read_more]
+other = "阅读全文"
+
+[all_posts]
+other = "全部文章"
+
+[footer_company]
+other = "关于我们"
+
+[footer_follow]
+other = "关注我们"
+
+[footer_contacts]
+other = "联系方式"
+
+[form_name]
+other = "您的姓名"
+
+[form_email]
+other = "电子邮箱"
+
+[form_role]
+other = "我的身份"
+
+[form_message]
+other = "留言内容"
+
+[form_send]
+other = "发送消息"
+
+[notfound_title]
+other = "这个页面去寻找更优质的流量了。"
+
+[notfound_cta]
+other = "返回首页"
+
+[lang_label]
+other = "语言"
+
+[cta_band_title]
+other = "准备好增长了吗？"
+
+[cta_band_advertise]
+other = "立即投放"
+
+[cta_band_earn]
+other = "开始赚钱"
+
+[form_role_advertiser]
+other = "广告主"
+
+[form_role_publisher]
+other = "流量主"
+
+[form_role_other]
+other = "其他"
+
+[blog_published]
+other = "发布于"
+
+[legal_draft_banner]
+other = "草案——发布前需经法律审核。"
+
+[breadcrumb_home]
+other = "首页"
+
+[do_heading]
+other = "建议"
+
+[dont_heading]
+other = "避免"
+
+[specs_heading]
+other = "规格参数"
+
+[related_formats]
+other = "相关格式"
+
+[why_us_heading]
+other = "为什么选择 aiaiaiads"
+
+[how_it_works]
+other = "使用流程"
+
+[all_faq]
+other = "全部问题"
+
+[aria_navigation]
+other = "导航"
+
+[aria_breadcrumb]
+other = "面包屑导航"
+
+[aria_open_menu]
+other = "打开菜单"
+
+[aria_close_menu]
+other = "关闭菜单"
+
+[footer_blog]
+other = "博客"
+
+[footer_privacy]
+other = "隐私政策"
+
+[footer_terms]
+other = "服务条款"
+
+[footer_cookies]
+other = "Cookie 政策"
+
+[spec_trigger]
+other = "触发方式"
+
+[spec_placement]
+other = "广告位置"
+
+[spec_devices]
+other = "适用设备"
+
+[spec_pricing]
+other = "计价方式"
+
+[spec_verticals]
+other = "最佳行业"

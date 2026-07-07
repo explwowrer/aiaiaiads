@@ -1,0 +1,110 @@
+{{ define "main" }}
+
+<article class="section">
+  <div class="container">
+
+    {{/* Breadcrumb */}}
+    <nav class="breadcrumb" aria-label="{{ i18n "aria_breadcrumb" }}">
+      <a href="{{ .Site.Home.RelPermalink }}">{{ i18n "breadcrumb_home" }}</a>
+      <span aria-hidden="true">/</span>
+      <a href="{{ "ad-formats/" | relLangURL }}">{{ i18n "nav_formats" }}</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">{{ .Title }}</span>
+    </nav>
+
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="format-definition">{{ . }}</p>{{ end }}
+
+    {{/* How it appears — CSS mock */}}
+    <div class="format-mock format-mock--{{ .Params.format_icon }}" aria-hidden="true">
+      <div class="format-mock-inner">
+        <div class="format-mock-bar"></div>
+        <div class="format-mock-content"></div>
+      </div>
+    </div>
+
+    {{/* Split: For advertisers / For publishers */}}
+    <div class="grid grid-2 format-split">
+      <div class="card format-side format-side--adv">
+        <h2>{{ i18n "for_advertisers" }}</h2>
+        {{ with .Params.summary_advertisers }}<p>{{ . }}</p>{{ end }}
+        <a href="{{ site.Params.placeholders.SIGNUP_ADVERTISER_URL }}" class="btn btn--primary">{{ i18n "cta_advertise" }}</a>
+      </div>
+      <div class="card format-side format-side--pub">
+        <h2>{{ i18n "for_publishers" }}</h2>
+        {{ with .Params.summary_publishers }}<p>{{ . }}</p>{{ end }}
+        <a href="{{ site.Params.placeholders.SIGNUP_PUBLISHER_URL }}" class="btn btn--earn">{{ i18n "cta_earn" }}</a>
+      </div>
+    </div>
+
+    {{/* Spec table */}}
+    {{ if .Params.pricing }}
+    <div class="spec-table-wrap">
+      <h2>{{ i18n "specs_heading" }}</h2>
+      <table class="spec-table">
+        <tbody>
+          {{ with .Params.spec_trigger }}
+          <tr><th>{{ i18n "spec_trigger" }}</th><td>{{ . }}</td></tr>
+          {{ end }}
+          {{ with .Params.spec_placement }}
+          <tr><th>{{ i18n "spec_placement" }}</th><td>{{ . }}</td></tr>
+          {{ end }}
+          {{ with .Params.spec_devices }}
+          <tr><th>{{ i18n "spec_devices" }}</th><td>{{ . }}</td></tr>
+          {{ end }}
+          <tr><th>{{ i18n "spec_pricing" }}</th><td>{{ delimit .Params.pricing ", " }}</td></tr>
+          {{ with .Params.spec_verticals }}
+          <tr><th>{{ i18n "spec_verticals" }}</th><td>{{ . }}</td></tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+    {{ end }}
+
+    {{/* Do / Don't */}}
+    {{ if or .Params.tip_do .Params.tip_dont }}
+    <div class="grid grid-2 tips-grid">
+      {{ with .Params.tip_do }}
+      <div class="card tip-card tip-card--do">
+        <h3>{{ i18n "do_heading" }}</h3>
+        <p>{{ . }}</p>
+      </div>
+      {{ end }}
+      {{ with .Params.tip_dont }}
+      <div class="card tip-card tip-card--dont">
+        <h3>{{ i18n "dont_heading" }}</h3>
+        <p>{{ . }}</p>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{/* Body content */}}
+    {{ with .Content }}
+    <div class="prose format-body">
+      {{ . }}
+    </div>
+    {{ end }}
+
+    {{/* Related formats */}}
+    {{ with .Params.related_formats }}
+    <div class="related-formats">
+      <h2>{{ i18n "related_formats" }}</h2>
+      <div class="grid grid-2">
+        {{ range . }}
+          {{ $page := site.GetPage . }}
+          {{ if $page }}
+          <a href="{{ $page.RelPermalink }}" class="card format-hub-card">
+            <h3>{{ $page.Title }}</h3>
+            <p>{{ $page.Description }}</p>
+          </a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+  </div>
+</article>
+
+{{ end }}

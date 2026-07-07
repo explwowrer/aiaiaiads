@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+{{ partial "jsonld-article.html" . }}
+
+<article class="section">
+  <div class="container prose">
+    <nav class="breadcrumb" aria-label="{{ i18n "aria_breadcrumb" }}">
+      <a href="{{ .Site.Home.RelPermalink }}">{{ i18n "breadcrumb_home" }}</a>
+      <span aria-hidden="true">/</span>
+      <a href="{{ "blog/" | relLangURL }}">{{ i18n "footer_blog" }}</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">{{ .Title }}</span>
+    </nav>
+
+    <h1>{{ .Title }}</h1>
+    <time class="blog-date" datetime="{{ .Date.Format "2006-01-02" }}">
+      {{ i18n "blog_published" }}: {{ .Date.Format "Jan 2, 2006" }}
+    </time>
+
+    {{ .Content }}
+
+    <div style="margin-top: 3rem;">
+      <a href="{{ "blog/" | relLangURL }}" class="btn btn--ghost">&larr; {{ i18n "all_posts" }}</a>
+    </div>
+  </div>
+</article>
+
+{{ end }}

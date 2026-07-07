@@ -1,0 +1,13 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title | safeJS }}",
+  "description": "{{ .Description | safeJS }}",
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  {{ with .Lastmod }}"dateModified": "{{ .Format "2006-01-02" }}",{{ end }}
+  "author": {"@type": "Organization", "name": "aiaiaiads"},
+  "publisher": {"@type": "Organization", "name": "aiaiaiads"},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "{{ .Permalink }}"}
+}
+</script>

@@ -1,0 +1,39 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-col-title">{{ i18n "nav_advertisers" }}</div>
+        <a href="{{ "advertisers/" | relLangURL }}">{{ i18n "nav_advertisers" }}</a>
+        <a href="{{ "pricing-models/" | relLangURL }}">{{ i18n "nav_formats" }}</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">{{ i18n "nav_publishers" }}</div>
+        <a href="{{ "publishers/" | relLangURL }}">{{ i18n "nav_publishers" }}</a>
+        <a href="{{ "referral-program/" | relLangURL }}">{{ i18n "learn_more" }}</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">{{ i18n "nav_formats" }}</div>
+        <a href="{{ "ad-formats/" | relLangURL }}">{{ i18n "nav_formats" }}</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">{{ i18n "nav_resources" }}</div>
+        <a href="{{ "blog/" | relLangURL }}">{{ i18n "footer_blog" }}</a>
+        <a href="{{ "faq/" | relLangURL }}">{{ i18n "nav_faq" }}</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">{{ i18n "footer_company" }}</div>
+        <a href="{{ "about/" | relLangURL }}">{{ i18n "footer_company" }}</a>
+        <a href="{{ "contact/" | relLangURL }}">{{ i18n "footer_contacts" }}</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>&copy; {{ now.Year }} aiaiaiads. {{ site.Params.placeholders.COMPANY_LEGAL }}</div>
+      <div>
+        <a href="{{ "legal/privacy/" | relLangURL }}">{{ i18n "footer_privacy" }}</a> &middot;
+        <a href="{{ "legal/terms-advertisers/" | relLangURL }}">{{ i18n "footer_terms" }}</a> &middot;
+        <a href="{{ "legal/cookies/" | relLangURL }}">{{ i18n "footer_cookies" }}</a>
+      </div>
+    </div>
+  </div>
+</footer>

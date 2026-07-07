@@ -1,0 +1,16 @@
+<div class="lang-switcher">
+  <button type="button" class="lang-switcher-btn" aria-expanded="false" aria-label="{{ i18n "lang_label" }}">
+    {{ .Language.LanguageName }}
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+      <path d="M3 5l3 3 3-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    </svg>
+  </button>
+  <div class="lang-switcher-list">
+    <span class="is-current" aria-current="true">{{ .Language.LanguageName }}</span>
+    {{ if .IsTranslated }}
+      {{ range .Translations }}
+        <a href="{{ .RelPermalink }}" hreflang="{{ .Language.LanguageCode }}">{{ .Language.LanguageName }}</a>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>

@@ -1,0 +1,51 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+
+    {{/* Tabs: Advertisers | Publishers */}}
+    <div class="tabs" data-tabs>
+      <div class="tab-list" role="tablist">
+        <button role="tab" aria-selected="true" aria-controls="faq-panel-adv" id="faq-tab-adv" class="tab-btn tab-btn--adv">{{ i18n "for_advertisers" }}</button>
+        <button role="tab" aria-selected="false" aria-controls="faq-panel-pub" id="faq-tab-pub" class="tab-btn tab-btn--pub" tabindex="-1">{{ i18n "for_publishers" }}</button>
+      </div>
+
+      <div role="tabpanel" id="faq-panel-adv" aria-labelledby="faq-tab-adv" class="tab-panel">
+        {{ range .Params.faq_advertisers }}
+        <details class="faq-item">
+          <summary>{{ .q }}</summary>
+          <div class="faq-answer"><p>{{ .a }}</p></div>
+        </details>
+        {{ end }}
+      </div>
+
+      <div role="tabpanel" id="faq-panel-pub" aria-labelledby="faq-tab-pub" class="tab-panel" hidden>
+        {{ range .Params.faq_publishers }}
+        <details class="faq-item">
+          <summary>{{ .q }}</summary>
+          <div class="faq-answer"><p>{{ .a }}</p></div>
+        </details>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* FAQPage JSON-LD */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{ $allFaqs := slice }}
+    {{ range .Params.faq_advertisers }}{{ $allFaqs = $allFaqs | append . }}{{ end }}
+    {{ range .Params.faq_publishers }}{{ $allFaqs = $allFaqs | append . }}{{ end }}
+    {{ range $i, $faq := $allFaqs }}{{ if $i }},{{ end }}
+    {"@type": "Question", "name": "{{ .q | safeJS }}", "acceptedAnswer": {"@type": "Answer", "text": "{{ .a | safeJS }}"}}
+    {{ end }}
+  ]
+}
+</script>
+
+{{ end }}
