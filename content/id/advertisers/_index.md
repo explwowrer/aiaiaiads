@@ -28,6 +28,6 @@ Setiap impresi melewati tiga pemeriksaan: penyaringan bot otomatis, verifikasi p
 
 ## Mulai sekarang
 
-Deposit minimum [[MIN_DEPOSIT]]. Kartu, PayPal, dan wire transfer diterima. Saran anggaran uji coba: mulai dari [[TEST_BUDGET]] per pasangan geo/format dan perbesar yang berhasil.
+Deposit minimum {{< v "MIN_DEPOSIT" >}}. Kartu, PayPal, dan wire transfer diterima. Saran anggaran uji coba: mulai dari {{< v "TEST_BUDGET" >}} per pasangan geo/format dan perbesar yang berhasil.
 
-[Buat akun advertiser]([[SIGNUP_ADVERTISER_URL]]){.btn .btn--primary}
+<a href="{{< v "SIGNUP_ADVERTISER_URL" >}}" class="btn btn--primary">Buat akun advertiser</a>

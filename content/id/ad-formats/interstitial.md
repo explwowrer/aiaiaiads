@@ -5,7 +5,7 @@ translationKey: "format-interstitial"
 format_icon: "interstitial"
 audience: ["advertisers", "publishers"]
 pricing: ["CPM", "CPA"]
-summary_advertisers: "Perhatian penuh tanpa gangguan. CTR-per-impresi terbaik setelah Pulse Widget. Kuat untuk app install dan kreatif berbasis video."
+summary_advertisers: "Perhatian penuh tanpa gangguan. CTR-per-impresi terbaik dalam portofolio. Kuat untuk app install dan kreatif berbasis video."
 summary_publishers: "CPM premium. Ditampilkan saat jeda navigasi alami sehingga tidak mengganggu pembacaan."
 spec_trigger: "Transisi halaman"
 spec_devices: "Desktop & mobile web"

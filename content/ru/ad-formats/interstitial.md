@@ -5,7 +5,7 @@ translationKey: "format-interstitial"
 format_icon: "interstitial"
 audience: ["advertisers", "publishers"]
 pricing: ["CPM", "CPA"]
-summary_advertisers: "Безраздельное внимание. Лучший CTR на показ в линейке после Pulse Widget. Сильный формат для установок приложений и видеокреативов."
+summary_advertisers: "Безраздельное внимание. Лучший CTR на показ в линейке. Сильный формат для установок приложений и видеокреативов."
 summary_publishers: "Премиальные CPM. Показывается при естественных переходах между страницами, не прерывая чтение."
 spec_trigger: "Переход между страницами"
 spec_devices: "Десктоп и мобильный веб"

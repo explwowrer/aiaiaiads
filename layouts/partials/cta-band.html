@@ -7,8 +7,8 @@
     </div>
     <h2>{{ i18n "cta_band_title" }}</h2>
     <div class="cta-band-actions">
-      <a href="{{ site.Params.placeholders.SIGNUP_ADVERTISER_URL }}" class="btn btn--primary">{{ i18n "cta_band_advertise" }}</a>
-      <a href="{{ site.Params.placeholders.SIGNUP_PUBLISHER_URL }}" class="btn btn--earn">{{ i18n "cta_band_earn" }}</a>
+      <a href="{{ index site.Data.site "SIGNUP_ADVERTISER_URL" }}" class="btn btn--primary">{{ i18n "cta_band_advertise" }}</a>
+      <a href="{{ index site.Data.site "SIGNUP_PUBLISHER_URL" }}" class="btn btn--earn">{{ i18n "cta_band_earn" }}</a>
     </div>
   </div>
 </section>

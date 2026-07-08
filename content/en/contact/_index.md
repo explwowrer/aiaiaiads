@@ -9,19 +9,19 @@ draft: false
 
 ### Advertiser support
 
-[[SUPPORT_EMAIL_ADV]]
+{{< v "SUPPORT_EMAIL_ADV" >}}
 
 ### Publisher support
 
-[[SUPPORT_EMAIL_PUB]]
+{{< v "SUPPORT_EMAIL_PUB" >}}
 
 ### Partnerships & press
 
-[[SUPPORT_EMAIL_BIZ]]
+{{< v "SUPPORT_EMAIL_BIZ" >}}
 
 ### Send us a message
 
-<form class="contact-form" action="[[FORM_ENDPOINT]]" method="POST">
+<form class="contact-form" action="{{< v "FORM_ENDPOINT" >}}" method="POST">
   <div class="form-field">
     <label for="name">Your name</label>
     <input type="text" id="name" name="name" required>
@@ -47,4 +47,4 @@ draft: false
 
 ### Report a bad ad
 
-Found a bad ad? Report it with the placement URL to [[ABUSE_EMAIL]]. We investigate every report within [[ABUSE_SLA]].
+Found a bad ad? Report it with the placement URL to {{< v "ABUSE_EMAIL" >}}. We investigate every report within {{< v "ABUSE_SLA" >}}.

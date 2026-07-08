@@ -13,7 +13,7 @@ spec_verticals: "Все вертикали"
 tip_do: "Размещайте там, где любопытство на пике — моменты «продолжить» работают лучше всего."
 tip_dont: "Обманывать пользователя о том, куда ведёт ссылка."
 related_formats:
-  - "/ad-formats/pulse-widget"
+  - "/ad-formats/native"
   - "/ad-formats/popunder"
 draft: false
 ---

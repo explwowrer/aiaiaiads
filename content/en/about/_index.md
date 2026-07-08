@@ -16,12 +16,12 @@ Yes, we see the irony. We embrace it.
 - **Transparent numbers.** You see what we see.
 - **Fraud is treated as theft.** Suspicious sources are quarantined, not tolerated.
 - **No format ships before it passes our own annoyance test.** If we wouldn't accept it on our site, we don't serve it on yours.
-- **Payouts are sacred.** [[PAYOUT_SCHEDULE]], every time, no excuses.
+- **Payouts are sacred.** {{< v "PAYOUT_SCHEDULE" >}}, every time, no excuses.
 
 ### Company
 
-[[COMPANY_LEGAL]]
+{{< v "COMPANY_LEGAL" >}}
 
-[[COMPANY_ADDRESS]]
+{{< v "COMPANY_ADDRESS" >}}
 
-[[SUPPORT_EMAIL]]
+{{< v "SUPPORT_EMAIL" >}}

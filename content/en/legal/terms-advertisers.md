@@ -8,7 +8,7 @@ draft: false
 
 ## 1. Definitions
 
-"Platform" means the aiaiaiads advertising platform operated by [[COMPANY_LEGAL]]. "Advertiser" means any individual or entity that creates an advertiser account on the Platform. "Campaign" means a set of advertisements configured and funded by the Advertiser. "Impression" means a single display of an advertisement to an end user.
+"Platform" means the aiaiaiads advertising platform operated by {{< v "COMPANY_LEGAL" >}}. "Advertiser" means any individual or entity that creates an advertiser account on the Platform. "Campaign" means a set of advertisements configured and funded by the Advertiser. "Impression" means a single display of an advertisement to an end user.
 
 ## 2. Account registration
 
@@ -16,7 +16,7 @@ To use the Platform as an Advertiser, you must create an account and provide acc
 
 ## 3. Funding and billing
 
-Campaigns require prepayment. The minimum deposit is [[MIN_DEPOSIT]]. Funds are deducted based on the pricing model selected (CPM, CPC, or CPA). Unused balances are refundable upon account closure, minus any outstanding obligations.
+Campaigns require prepayment. The minimum deposit is {{< v "MIN_DEPOSIT" >}}. Funds are deducted based on the pricing model selected (CPM, CPC, or CPA). Unused balances are refundable upon account closure, minus any outstanding obligations.
 
 ## 4. Acceptable use
 
@@ -48,7 +48,7 @@ Either party may terminate the relationship with 7 days' written notice. The Pla
 
 ## 11. Governing law
 
-These Terms are governed by the laws of [[JURISDICTION]].
+These Terms are governed by the laws of {{< v "JURISDICTION" >}}.
 
 ## 12. Changes to Terms
 

@@ -13,7 +13,7 @@ spec_verticals: "Semua vertikal"
 tip_do: "Tempatkan di momen puncak rasa penasaran — momen 'lanjutkan' paling efektif."
 tip_dont: "Melabeli tujuan link secara keliru."
 related_formats:
-  - "/ad-formats/pulse-widget"
+  - "/ad-formats/native"
   - "/ad-formats/popunder"
 draft: false
 ---

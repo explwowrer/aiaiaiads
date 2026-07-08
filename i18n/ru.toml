@@ -168,3 +168,12 @@ other = "Модель оплаты"
 
 [spec_verticals]
 other = "Лучшие вертикали"
+
+[footer_pricing]
+other = "Модели оплаты"
+
+[footer_referral]
+other = "Реферальная программа"
+
+[footer_contact]
+other = "Контакты"

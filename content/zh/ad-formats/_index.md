@@ -1,6 +1,6 @@
 ---
 title: "广告格式：弹窗后置、推送、原生广告等 | aiaiaiads"
-description: "浏览 aiaiaiads 全部广告格式及在线演示——弹窗后置、页内推送、插屏、横幅、原生、智能直链和 Pulse Widget。"
+description: "浏览 aiaiaiads 全部广告格式及在线演示——弹窗后置、页内推送、插屏、横幅、原生和智能直链。"
 translationKey: "ad-formats"
 draft: false
 ---

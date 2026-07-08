@@ -2,7 +2,7 @@
 
 <section class="section">
   <div class="container">
-    <h1>{{ .Title }}</h1>
+    <h1>{{ .Params.h1 | default .Title }}</h1>
 
     {{/* Tabs: Advertisers | Publishers */}}
     <div class="tabs" data-tabs>

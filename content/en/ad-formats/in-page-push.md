@@ -13,8 +13,8 @@ spec_verticals: "Content, news, entertainment, utilities"
 tip_do: "Rotate creatives weekly."
 tip_dont: "Stack more than two cards at once."
 related_formats:
-  - "/ad-formats/pulse-widget"
   - "/ad-formats/native"
+  - "/ad-formats/banner"
 draft: false
 ---
 

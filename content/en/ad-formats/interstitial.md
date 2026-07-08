@@ -5,7 +5,7 @@ translationKey: "format-interstitial"
 format_icon: "interstitial"
 audience: ["advertisers", "publishers"]
 pricing: ["CPM", "CPA"]
-summary_advertisers: "Undivided attention. Best CTR-per-impression in the stack after Pulse Widget. Strong for app installs and video-first creatives."
+summary_advertisers: "Undivided attention. Best CTR-per-impression in the stack. Strong for app installs and video-first creatives."
 summary_publishers: "Premium CPMs. Shows at natural navigation breaks so it doesn't interrupt reading."
 spec_trigger: "Page transition"
 spec_devices: "Desktop & mobile web"

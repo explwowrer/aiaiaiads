@@ -9,19 +9,19 @@ draft: false
 
 ### 广告主支持
 
-[[SUPPORT_EMAIL_ADV]]
+{{< v "SUPPORT_EMAIL_ADV" >}}
 
 ### 流量主支持
 
-[[SUPPORT_EMAIL_PUB]]
+{{< v "SUPPORT_EMAIL_PUB" >}}
 
 ### 商务合作与媒体
 
-[[SUPPORT_EMAIL_BIZ]]
+{{< v "SUPPORT_EMAIL_BIZ" >}}
 
 ### 给我们留言
 
-<form class="contact-form" action="[[FORM_ENDPOINT]]" method="POST">
+<form class="contact-form" action="{{< v "FORM_ENDPOINT" >}}" method="POST">
   <div class="form-field">
     <label for="name">您的姓名</label>
     <input type="text" id="name" name="name" required>
@@ -47,4 +47,4 @@ draft: false
 
 ### 举报违规广告
 
-发现违规广告？请将广告位链接发送至 [[ABUSE_EMAIL]]。我们会在 [[ABUSE_SLA]] 内调查每一份举报。
+发现违规广告？请将广告位链接发送至 {{< v "ABUSE_EMAIL" >}}。我们会在 {{< v "ABUSE_SLA" >}} 内调查每一份举报。

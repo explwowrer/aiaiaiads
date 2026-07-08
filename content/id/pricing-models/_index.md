@@ -13,7 +13,7 @@ Terbaik untuk jangkauan, brand, dan format di mana tampilan itu sendiri yang bek
 
 ### CPC — Biaya per klik
 
-Terbaik saat landing page Anda mengkonversi dan Anda hanya butuh pengunjung berkualitas (In-Page Push, iklan native, Pulse Widget).
+Terbaik saat landing page Anda mengkonversi dan Anda hanya butuh pengunjung berkualitas (In-Page Push, Native, Banner).
 
 ### CPA — Biaya per aksi
 
@@ -27,6 +27,6 @@ Berlaku untuk semua model: AutoBid ke target eCPA, bid kustom per penempatan, at
 
 | Model | Anda bayar untuk | Profil risiko | Format terbaik | Anggaran min. |
 |---|---|---|---|---|
-| CPM | Impresi | Anda menanggung risiko optimasi | Popunder, Interstitial | [[MIN_BUDGET_CPM]] |
-| CPC | Klik | Risiko bersama | In-Page Push, Native, Pulse Widget | [[MIN_BUDGET_CPC]] |
-| CPA | Aksi | Jaringan menanggung risiko traffic | Semua format | [[MIN_BUDGET_CPA]] |
+| CPM | Impresi | Anda menanggung risiko optimasi | Popunder, Interstitial | {{< v "MIN_BUDGET_CPM" >}} |
+| CPC | Klik | Risiko bersama | In-Page Push, Native, Banner | {{< v "MIN_BUDGET_CPC" >}} |
+| CPA | Aksi | Jaringan menanggung risiko traffic | Semua format | {{< v "MIN_BUDGET_CPA" >}} |

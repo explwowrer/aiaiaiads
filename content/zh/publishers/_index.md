@@ -17,7 +17,7 @@ hero_sub: "无论您运营的是垂直博客、工具站还是社交频道，aia
 
 ## 尊重您网站的广告格式
 
-由您选择运行哪些格式。从原生广告和横幅广告开始；想要提升收入时，再添加 Pulse Widget 互动组件或弹窗后置广告。每个广告单元在到达访客之前都经过恶意软件扫描。
+由您选择运行哪些格式。从原生广告和横幅广告开始；想要提升收入时，再添加页内推送广告或弹窗后置广告。每个广告单元在到达访客之前都经过恶意软件扫描。
 
 ## 没有网站？没关系。
 
@@ -25,6 +25,6 @@ hero_sub: "无论您运营的是垂直博客、工具站还是社交频道，aia
 
 ## 提现 {#payouts}
 
-[[PAYOUT_SCHEDULE]]，最低 [[MIN_PAYOUT]]。支持方式：[[PAYOUT_METHODS]]。从未有一笔付款需要提交工单才能到账，我们会一直保持下去。
+{{< v "PAYOUT_SCHEDULE" >}}，最低 {{< v "MIN_PAYOUT" >}}。支持方式：{{< v "PAYOUT_METHODS" >}}。从未有一笔付款需要提交工单才能到账，我们会一直保持下去。
 
-[开始赚钱]([[SIGNUP_PUBLISHER_URL]]){.btn .btn--earn}
+<a href="{{< v "SIGNUP_PUBLISHER_URL" >}}" class="btn btn--earn">开始赚钱</a>

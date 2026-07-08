@@ -28,12 +28,12 @@
       <div class="card format-side format-side--adv">
         <h2>{{ i18n "for_advertisers" }}</h2>
         {{ with .Params.summary_advertisers }}<p>{{ . }}</p>{{ end }}
-        <a href="{{ site.Params.placeholders.SIGNUP_ADVERTISER_URL }}" class="btn btn--primary">{{ i18n "cta_advertise" }}</a>
+        <a href="{{ index site.Data.site "SIGNUP_ADVERTISER_URL" }}" class="btn btn--primary">{{ i18n "cta_advertise" }}</a>
       </div>
       <div class="card format-side format-side--pub">
         <h2>{{ i18n "for_publishers" }}</h2>
         {{ with .Params.summary_publishers }}<p>{{ . }}</p>{{ end }}
-        <a href="{{ site.Params.placeholders.SIGNUP_PUBLISHER_URL }}" class="btn btn--earn">{{ i18n "cta_earn" }}</a>
+        <a href="{{ index site.Data.site "SIGNUP_PUBLISHER_URL" }}" class="btn btn--earn">{{ i18n "cta_earn" }}</a>
       </div>
     </div>
 

@@ -8,7 +8,7 @@ draft: false
 
 ## 1. Definitions
 
-"Platform" means the aiaiaiads advertising platform operated by [[COMPANY_LEGAL]]. "Publisher" means any individual or entity that creates a publisher account on the Platform. "Ad Unit" means an advertising placement on the Publisher's property. "Property" means any website, application, or digital channel registered by the Publisher.
+"Platform" means the aiaiaiads advertising platform operated by {{< v "COMPANY_LEGAL" >}}. "Publisher" means any individual or entity that creates a publisher account on the Platform. "Ad Unit" means an advertising placement on the Publisher's property. "Property" means any website, application, or digital channel registered by the Publisher.
 
 ## 2. Account registration
 
@@ -16,7 +16,7 @@ To use the Platform as a Publisher, you must create an account and provide accur
 
 ## 3. Payment terms
 
-Payments are made [[PAYOUT_SCHEDULE]], subject to a minimum balance of [[MIN_PAYOUT]]. Payment methods include [[PAYOUT_METHODS]]. The Platform reserves the right to withhold payments pending fraud investigation.
+Payments are made {{< v "PAYOUT_SCHEDULE" >}}, subject to a minimum balance of {{< v "MIN_PAYOUT" >}}. Payment methods include {{< v "PAYOUT_METHODS" >}}. The Platform reserves the right to withhold payments pending fraud investigation.
 
 ## 4. Publisher obligations
 
@@ -48,7 +48,7 @@ Either party may terminate the relationship with 7 days' written notice. The Pla
 
 ## 11. Governing law
 
-These Terms are governed by the laws of [[JURISDICTION]].
+These Terms are governed by the laws of {{< v "JURISDICTION" >}}.
 
 ## 12. Changes to Terms
 

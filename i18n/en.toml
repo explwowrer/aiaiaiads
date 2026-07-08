@@ -168,3 +168,12 @@ other = "Pricing"
 
 [spec_verticals]
 other = "Best verticals"
+
+[footer_pricing]
+other = "Pricing models"
+
+[footer_referral]
+other = "Referral program"
+
+[footer_contact]
+other = "Contact"

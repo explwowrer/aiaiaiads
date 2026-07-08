@@ -168,3 +168,12 @@ other = "计价方式"
 
 [spec_verticals]
 other = "最佳行业"
+
+[footer_pricing]
+other = "计价模式"
+
+[footer_referral]
+other = "推荐计划"
+
+[footer_contact]
+other = "联系我们"

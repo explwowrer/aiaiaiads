@@ -5,7 +5,7 @@ translationKey: "format-interstitial"
 format_icon: "interstitial"
 audience: ["advertisers", "publishers"]
 pricing: ["CPM", "CPA"]
-summary_advertisers: "独占用户注意力。除 Pulse Widget 外，单次展示点击率最高。适合应用安装和视频优先的素材。"
+summary_advertisers: "独占用户注意力。单次展示点击率最高。适合应用安装和视频优先的素材。"
 summary_publishers: "优质 CPM。在自然导航间隙展示，不打断阅读。"
 spec_trigger: "页面切换"
 spec_devices: "桌面端和移动端网页"

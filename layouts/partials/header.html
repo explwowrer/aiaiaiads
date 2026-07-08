@@ -39,12 +39,12 @@
           </svg>
         </button>
         <div class="nav-dropdown" style="right:0; left:auto;">
-          <a href="{{ site.Params.placeholders.LOGIN_ADVERTISER_URL }}">{{ i18n "login_as_adv" }}</a>
-          <a href="{{ site.Params.placeholders.LOGIN_PUBLISHER_URL }}">{{ i18n "login_as_pub" }}</a>
+          <a href="{{ index site.Data.site "LOGIN_ADVERTISER_URL" }}">{{ i18n "login_as_adv" }}</a>
+          <a href="{{ index site.Data.site "LOGIN_PUBLISHER_URL" }}">{{ i18n "login_as_pub" }}</a>
         </div>
       </div>
 
-      <a href="{{ site.Params.placeholders.SIGNUP_ADVERTISER_URL }}" class="btn btn--primary" style="padding: 0.5rem 1.25rem; font-size: 0.875rem;">
+      <a href="{{ index site.Data.site "SIGNUP_ADVERTISER_URL" }}" class="btn btn--primary" style="padding: 0.5rem 1.25rem; font-size: 0.875rem;">
         {{ i18n "cta_signup" }}
       </a>
     </div>
@@ -81,7 +81,7 @@
   </div>
   <div class="mobile-nav-actions">
     {{ partial "lang-switcher.html" . }}
-    <a href="{{ site.Params.placeholders.LOGIN_ADVERTISER_URL }}" class="btn btn--ghost">{{ i18n "cta_login" }}</a>
-    <a href="{{ site.Params.placeholders.SIGNUP_ADVERTISER_URL }}" class="btn btn--primary">{{ i18n "cta_signup" }}</a>
+    <a href="{{ index site.Data.site "LOGIN_ADVERTISER_URL" }}" class="btn btn--ghost">{{ i18n "cta_login" }}</a>
+    <a href="{{ index site.Data.site "SIGNUP_ADVERTISER_URL" }}" class="btn btn--primary">{{ i18n "cta_signup" }}</a>
   </div>
 </div>

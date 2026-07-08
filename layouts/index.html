@@ -12,8 +12,8 @@
     <h1>{{ .Params.hero_h1 }}</h1>
     <p class="hero-sub">{{ .Params.hero_sub }}</p>
     <div class="hero-ctas">
-      <a href="{{ site.Params.placeholders.SIGNUP_ADVERTISER_URL }}" class="btn btn--primary">{{ i18n "cta_advertise" }}</a>
-      <a href="{{ site.Params.placeholders.SIGNUP_PUBLISHER_URL }}" class="btn btn--earn">{{ i18n "cta_earn" }}</a>
+      <a href="{{ index site.Data.site "SIGNUP_ADVERTISER_URL" }}" class="btn btn--primary">{{ i18n "cta_advertise" }}</a>
+      <a href="{{ index site.Data.site "SIGNUP_PUBLISHER_URL" }}" class="btn btn--earn">{{ i18n "cta_earn" }}</a>
     </div>
   </div>
 </section>
@@ -116,10 +116,7 @@
         <h3>{{ i18n "for_advertisers" }}</h3>
         <ol class="hiw-steps">
           {{ range .Params.how_it_works_adv }}
-          <li>
-            <span class="hiw-step-num">{{ .step }}</span>
-            <span>{{ .text }}</span>
-          </li>
+          <li>{{ .text }}</li>
           {{ end }}
         </ol>
       </div>
@@ -127,10 +124,7 @@
         <h3>{{ i18n "for_publishers" }}</h3>
         <ol class="hiw-steps">
           {{ range .Params.how_it_works_pub }}
-          <li>
-            <span class="hiw-step-num">{{ .step }}</span>
-            <span>{{ .text }}</span>
-          </li>
+          <li>{{ .text }}</li>
           {{ end }}
         </ol>
       </div>

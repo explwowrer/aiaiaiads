@@ -4,12 +4,9 @@ description: "CPM, CPC and CPA traffic from verified publishers. 20+ targeting o
 translationKey: "advertisers"
 layout: "audience"
 draft: false
+h1: "Traffic that earns its budget."
 hero_sub: "Media buying shouldn't feel like a slot machine. On aiaiaiads you buy impressions from publishers we've screened, target them across 20+ dimensions, and let automated rules move money toward conversions in real time."
 ---
-
-## Traffic that earns its budget.
-
-Media buying shouldn't feel like a slot machine. On aiaiaiads you buy impressions from publishers we've screened, target them across 20+ dimensions, and let automated rules move money toward conversions in real time.
 
 ## Targeting {#targeting}
 
@@ -28,6 +25,6 @@ Every impression passes three checks: automated bot filtering, third-party verif
 
 ## Getting started
 
-Minimum deposit [[MIN_DEPOSIT]]. Cards, PayPal and wire accepted. Test budget advice: start from [[TEST_BUDGET]] per geo/format pair and scale winners.
+Minimum deposit {{< v "MIN_DEPOSIT" >}}. Cards, PayPal and wire accepted. Test budget advice: start from {{< v "TEST_BUDGET" >}} per geo/format pair and scale winners.
 
-[Create advertiser account]([[SIGNUP_ADVERTISER_URL]]){.btn .btn--primary}
+<a href="{{< v "SIGNUP_ADVERTISER_URL" >}}" class="btn btn--primary">Create advertiser account</a>

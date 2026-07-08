@@ -8,7 +8,7 @@ draft: false
 
 ## 1. 引言
 
-本隐私政策说明 [[COMPANY_LEGAL]]（"我们"、"aiaiaiads"）在您使用我们的网站和广告平台时如何收集、使用和保护个人数据。
+本隐私政策说明 {{< v "COMPANY_LEGAL" >}}（"我们"、"aiaiaiads"）在您使用我们的网站和广告平台时如何收集、使用和保护个人数据。
 
 ## 2. 我们收集的数据
 
@@ -36,7 +36,7 @@ draft: false
 
 ## 7. 您的权利
 
-根据您所在的管辖区域，您可能有权：访问、更正或删除您的个人数据；限制或反对处理；数据可携带；撤回同意。请联系 [[SUPPORT_EMAIL]] 行使这些权利。
+根据您所在的管辖区域，您可能有权：访问、更正或删除您的个人数据；限制或反对处理；数据可携带；撤回同意。请联系 {{< v "SUPPORT_EMAIL" >}} 行使这些权利。
 
 ## 8. 安全措施
 
@@ -56,6 +56,6 @@ draft: false
 
 ## 12. 联系方式
 
-隐私相关咨询：[[SUPPORT_EMAIL]]
+隐私相关咨询：{{< v "SUPPORT_EMAIL" >}}
 
-[[COMPANY_LEGAL]]，[[COMPANY_ADDRESS]]
+{{< v "COMPANY_LEGAL" >}}，{{< v "COMPANY_ADDRESS" >}}

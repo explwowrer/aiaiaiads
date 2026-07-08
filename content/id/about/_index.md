@@ -16,12 +16,12 @@ Ya, kami melihat ironinya. Kami merangkulnya.
 - **Angka yang transparan.** Anda melihat apa yang kami lihat.
 - **Fraud diperlakukan sebagai pencurian.** Sumber mencurigakan dikarantina, bukan ditoleransi.
 - **Tidak ada format yang diluncurkan sebelum lulus uji gangguan kami sendiri.** Jika kami tidak menerimanya di situs kami, kami tidak menyajikannya di situs Anda.
-- **Pembayaran itu sakral.** [[PAYOUT_SCHEDULE]], setiap saat, tanpa alasan.
+- **Pembayaran itu sakral.** {{< v "PAYOUT_SCHEDULE" >}}, setiap saat, tanpa alasan.
 
 ### Perusahaan
 
-[[COMPANY_LEGAL]]
+{{< v "COMPANY_LEGAL" >}}
 
-[[COMPANY_ADDRESS]]
+{{< v "COMPANY_ADDRESS" >}}
 
-[[SUPPORT_EMAIL]]
+{{< v "SUPPORT_EMAIL" >}}

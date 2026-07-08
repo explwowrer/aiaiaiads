@@ -1,6 +1,6 @@
 ---
 title: "Ad Formats: Popunder, Push, Native & More | aiaiaiads"
-description: "Explore all aiaiaiads formats with live examples — Popunder, In-Page Push, Interstitial, Banner, Native, Direct Link and Pulse Widget."
+description: "Explore all aiaiaiads formats with live examples — Popunder, In-Page Push, Interstitial, Banner, Native and Direct Link."
 translationKey: "ad-formats"
 draft: false
 ---

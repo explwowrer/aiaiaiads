@@ -134,12 +134,6 @@ disableKinds = ["taxonomy", "term"]
       parent = "formats"
       url = "/ad-formats/direct-link/"
       weight = 7
-    [[languages.en.menus.main]]
-      identifier = "fmt-pulse"
-      name = "Pulse Widget"
-      parent = "formats"
-      url = "/ad-formats/pulse-widget/"
-      weight = 8
 
     [[languages.en.menus.main]]
       identifier = "resources"
@@ -266,12 +260,7 @@ disableKinds = ["taxonomy", "term"]
       parent = "formats"
       url = "/zh/ad-formats/direct-link/"
       weight = 7
-    [[languages.zh.menus.main]]
-      identifier = "fmt-pulse"
-      name = "Pulse Widget"
-      parent = "formats"
-      url = "/zh/ad-formats/pulse-widget/"
-      weight = 8
+
     [[languages.zh.menus.main]]
       identifier = "resources"
       name = "资源"
@@ -397,12 +386,7 @@ disableKinds = ["taxonomy", "term"]
       parent = "formats"
       url = "/id/ad-formats/direct-link/"
       weight = 7
-    [[languages.id.menus.main]]
-      identifier = "fmt-pulse"
-      name = "Pulse Widget"
-      parent = "formats"
-      url = "/id/ad-formats/pulse-widget/"
-      weight = 8
+
     [[languages.id.menus.main]]
       identifier = "resources"
       name = "Sumber Daya"
@@ -528,12 +512,7 @@ disableKinds = ["taxonomy", "term"]
       parent = "formats"
       url = "/ru/ad-formats/direct-link/"
       weight = 7
-    [[languages.ru.menus.main]]
-      identifier = "fmt-pulse"
-      name = "Pulse Widget"
-      parent = "formats"
-      url = "/ru/ad-formats/pulse-widget/"
-      weight = 8
+
     [[languages.ru.menus.main]]
       identifier = "resources"
       name = "Ресурсы"
@@ -564,45 +543,8 @@ disableKinds = ["taxonomy", "term"]
       weight = 4
 
 # ---------------------------------------------------------------------------
-# Placeholders — render via {{ partial "placeholder.html" (dict "key" "KEY" "site" .Site) }}
 # ---------------------------------------------------------------------------
-
-[params]
-  [params.placeholders]
-    # ⚠️  Demo values — replace before launch (search for «» markers)
-    STAT_GEOS = "«248»"
-    STAT_PUBLISHERS = "«32 000+»"
-    STAT_IMPRESSIONS_MO = "«9.2B»"
-    STAT_CAMPAIGNS = "«14 500»"
-    MIN_DEPOSIT = "«$100»"
-    MIN_PAYOUT = "«$50»"
-    PAYOUT_SCHEDULE = "«Net-15»"
-    PAYOUT_METHODS = "«Wire, PayPal, Payoneer, USDT»"
-    SUPPORT_EMAIL = "«support@aiaiaiads.com»"
-    SUPPORT_EMAIL_ADV = "«advertisers@aiaiaiads.com»"
-    SUPPORT_EMAIL_PUB = "«publishers@aiaiaiads.com»"
-    SUPPORT_EMAIL_BIZ = "«partners@aiaiaiads.com»"
-    ABUSE_EMAIL = "«abuse@aiaiaiads.com»"
-    ABUSE_SLA = "«24 hours»"
-    COMPANY_LEGAL = "«aiaiaiads Ltd.»"
-    COMPANY_ADDRESS = "«71-75 Shelton Street, London, WC2H 9JQ, UK»"
-    SIGNUP_ADVERTISER_URL = "«#signup-advertiser»"
-    SIGNUP_PUBLISHER_URL = "«#signup-publisher»"
-    LOGIN_ADVERTISER_URL = "«#login-advertiser»"
-    LOGIN_PUBLISHER_URL = "«#login-publisher»"
-    FORM_ENDPOINT = "«https://formspree.io/f/example»"
-    TEST_BUDGET = "«$250»"
-    MIN_BUDGET_CPM = "«$50»"
-    MIN_BUDGET_CPC = "«$50»"
-    MIN_BUDGET_CPA = "«$100»"
-    MOD_SLA = "«2 business hours»"
-    TAG_SIZE = "«15 KB gzipped»"
-    REF_PERCENT = "«5%»"
-    REF_DURATION = "«12 months»"
-    TESTIMONIAL_1 = "«We switched three campaigns here and CPA dropped 40% in a week. The auto-rules actually work.»"
-    TESTIMONIAL_2 = "«My eCPM went from $1.20 to $3.80 after adding Pulse Widget. Payouts land like clockwork.»"
-    TESTIMONIAL_3 = "«Finally an ad network where I can talk to a human in under an hour. Rare in this industry.»"
-    NAME_1 = "«Alex M.»"
-    NAME_2 = "«Priya S.»"
-    NAME_3 = "«Carlos R.»"
-    JURISDICTION = "«England and Wales»"
+# Site-wide values are now in data/site.yaml (single source of truth).
+# Templates use: {{ index site.Data.site "KEY" }}
+# Markdown uses: {{</* v "KEY" */>}} shortcode
+# ---------------------------------------------------------------------------

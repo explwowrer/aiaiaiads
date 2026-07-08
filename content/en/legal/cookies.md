@@ -36,4 +36,4 @@ We may update this Cookie Policy as our technology or legal requirements change.
 
 ## 6. Contact
 
-For questions about our use of cookies: [[SUPPORT_EMAIL]]
+For questions about our use of cookies: {{< v "SUPPORT_EMAIL" >}}

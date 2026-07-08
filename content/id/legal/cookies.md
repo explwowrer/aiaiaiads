@@ -36,4 +36,4 @@ Kami dapat memperbarui Kebijakan Cookie ini seiring perubahan teknologi atau per
 
 ## 6. Kontak
 
-Untuk pertanyaan tentang penggunaan cookie kami: [[SUPPORT_EMAIL]]
+Untuk pertanyaan tentang penggunaan cookie kami: {{< v "SUPPORT_EMAIL" >}}

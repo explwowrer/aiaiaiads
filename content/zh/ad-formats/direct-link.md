@@ -13,7 +13,7 @@ spec_verticals: "所有行业"
 tip_do: "放在好奇心最强的位置——「继续」类场景效果最佳。"
 tip_dont: "不要虚标链接目的地。"
 related_formats:
-  - "/ad-formats/pulse-widget"
+  - "/ad-formats/native"
   - "/ad-formats/popunder"
 draft: false
 ---

@@ -1,7 +1,6 @@
-{{- $key := .key | lower -}}
-{{- $placeholders := site.Params.placeholders -}}
-{{- if isset $placeholders $key -}}
-  {{- index $placeholders $key -}}
+{{- $key := .key -}}
+{{- with index site.Data.site $key -}}
+  {{- . -}}
 {{- else -}}
-  {{- printf "[[%s]]" .key -}}
+  {{- printf "TODO_%s" $key -}}
 {{- end -}}

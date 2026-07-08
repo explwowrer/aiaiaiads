@@ -1,6 +1,6 @@
 ---
 title: "Форматы рекламы: попандер, Push, нативная и другие | aiaiaiads"
-description: "Все форматы aiaiaiads с живыми примерами — попандер, In-Page Push, межстраничная реклама, баннер, нативная, Direct Link и Pulse Widget."
+description: "Все форматы aiaiaiads с живыми примерами — попандер, In-Page Push, межстраничная реклама, баннер, нативная и Direct Link."
 translationKey: "ad-formats"
 draft: false
 ---

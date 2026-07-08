@@ -8,7 +8,7 @@ draft: false
 
 ## 1. Introduction
 
-This Privacy Policy describes how [[COMPANY_LEGAL]] ("we," "us," "aiaiaiads") collects, uses, and protects personal data when you use our website and advertising platform.
+This Privacy Policy describes how {{< v "COMPANY_LEGAL" >}} ("we," "us," "aiaiaiads") collects, uses, and protects personal data when you use our website and advertising platform.
 
 ## 2. Data we collect
 
@@ -36,7 +36,7 @@ Account data is retained for the duration of the account relationship plus any l
 
 ## 7. Your rights
 
-Depending on your jurisdiction, you may have the right to: access, correct, or delete your personal data; restrict or object to processing; data portability; withdraw consent. Contact [[SUPPORT_EMAIL]] to exercise these rights.
+Depending on your jurisdiction, you may have the right to: access, correct, or delete your personal data; restrict or object to processing; data portability; withdraw consent. Contact {{< v "SUPPORT_EMAIL" >}} to exercise these rights.
 
 ## 8. Security
 
@@ -56,6 +56,6 @@ We may update this policy periodically. Material changes will be communicated vi
 
 ## 12. Contact
 
-For privacy-related inquiries: [[SUPPORT_EMAIL]]
+For privacy-related inquiries: {{< v "SUPPORT_EMAIL" >}}
 
-[[COMPANY_LEGAL]], [[COMPANY_ADDRESS]]
+{{< v "COMPANY_LEGAL" >}}, {{< v "COMPANY_ADDRESS" >}}

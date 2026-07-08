@@ -13,8 +13,8 @@ spec_verticals: "Konten, berita, hiburan, utilitas"
 tip_do: "Rotasi kreatif setiap minggu."
 tip_dont: "Tumpuk lebih dari dua kartu sekaligus."
 related_formats:
-  - "/ad-formats/pulse-widget"
   - "/ad-formats/native"
+  - "/ad-formats/banner"
 draft: false
 ---
 

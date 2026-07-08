@@ -168,3 +168,12 @@ other = "Harga"
 
 [spec_verticals]
 other = "Vertikal terbaik"
+
+[footer_pricing]
+other = "Model harga"
+
+[footer_referral]
+other = "Program referral"
+
+[footer_contact]
+other = "Kontak"

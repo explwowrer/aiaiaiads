@@ -13,8 +13,8 @@ spec_verticals: "内容、新闻、娱乐、工具类"
 tip_do: "每周轮换素材。"
 tip_dont: "不要同时展示两张以上的推送卡片。"
 related_formats:
-  - "/ad-formats/pulse-widget"
   - "/ad-formats/native"
+  - "/ad-formats/banner"
 draft: false
 ---
 

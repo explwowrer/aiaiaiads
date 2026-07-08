@@ -8,7 +8,7 @@ draft: false
 
 ## 1. Definisi
 
-"Platform" berarti platform periklanan aiaiaiads yang dioperasikan oleh [[COMPANY_LEGAL]]. "Pengiklan" berarti setiap individu atau entitas yang membuat akun pengiklan di Platform. "Kampanye" berarti serangkaian iklan yang dikonfigurasi dan didanai oleh Pengiklan. "Impresi" berarti satu kali penayangan iklan kepada pengguna akhir.
+"Platform" berarti platform periklanan aiaiaiads yang dioperasikan oleh {{< v "COMPANY_LEGAL" >}}. "Pengiklan" berarti setiap individu atau entitas yang membuat akun pengiklan di Platform. "Kampanye" berarti serangkaian iklan yang dikonfigurasi dan didanai oleh Pengiklan. "Impresi" berarti satu kali penayangan iklan kepada pengguna akhir.
 
 ## 2. Pendaftaran akun
 
@@ -16,7 +16,7 @@ Untuk menggunakan Platform sebagai Pengiklan, Anda harus membuat akun dan member
 
 ## 3. Pendanaan dan penagihan
 
-Kampanye memerlukan pembayaran di muka. Deposit minimum adalah [[MIN_DEPOSIT]]. Dana dikurangkan berdasarkan model harga yang dipilih (CPM, CPC, atau CPA). Saldo yang tidak terpakai dapat dikembalikan saat penutupan akun, dikurangi kewajiban yang masih ada.
+Kampanye memerlukan pembayaran di muka. Deposit minimum adalah {{< v "MIN_DEPOSIT" >}}. Dana dikurangkan berdasarkan model harga yang dipilih (CPM, CPC, atau CPA). Saldo yang tidak terpakai dapat dikembalikan saat penutupan akun, dikurangi kewajiban yang masih ada.
 
 ## 4. Penggunaan yang dapat diterima
 
@@ -48,7 +48,7 @@ Salah satu pihak dapat mengakhiri hubungan dengan pemberitahuan tertulis 7 hari.
 
 ## 11. Hukum yang berlaku
 
-Ketentuan ini diatur oleh hukum [[JURISDICTION]].
+Ketentuan ini diatur oleh hukum {{< v "JURISDICTION" >}}.
 
 ## 12. Perubahan Ketentuan
 

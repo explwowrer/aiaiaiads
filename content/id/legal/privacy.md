@@ -8,7 +8,7 @@ draft: false
 
 ## 1. Pendahuluan
 
-Kebijakan Privasi ini menjelaskan cara [[COMPANY_LEGAL]] ("kami," "aiaiaiads") mengumpulkan, menggunakan, dan melindungi data pribadi saat Anda menggunakan website dan platform periklanan kami.
+Kebijakan Privasi ini menjelaskan cara {{< v "COMPANY_LEGAL" >}} ("kami," "aiaiaiads") mengumpulkan, menggunakan, dan melindungi data pribadi saat Anda menggunakan website dan platform periklanan kami.
 
 ## 2. Data yang kami kumpulkan
 
@@ -36,7 +36,7 @@ Data akun disimpan selama durasi hubungan akun ditambah periode penyimpanan yang
 
 ## 7. Hak Anda
 
-Tergantung pada yurisdiksi Anda, Anda mungkin memiliki hak untuk: mengakses, mengoreksi, atau menghapus data pribadi Anda; membatasi atau menolak pemrosesan; portabilitas data; menarik persetujuan. Hubungi [[SUPPORT_EMAIL]] untuk menggunakan hak-hak ini.
+Tergantung pada yurisdiksi Anda, Anda mungkin memiliki hak untuk: mengakses, mengoreksi, atau menghapus data pribadi Anda; membatasi atau menolak pemrosesan; portabilitas data; menarik persetujuan. Hubungi {{< v "SUPPORT_EMAIL" >}} untuk menggunakan hak-hak ini.
 
 ## 8. Keamanan
 
@@ -56,6 +56,6 @@ Kami dapat memperbarui kebijakan ini secara berkala. Perubahan material akan dik
 
 ## 12. Kontak
 
-Untuk pertanyaan terkait privasi: [[SUPPORT_EMAIL]]
+Untuk pertanyaan terkait privasi: {{< v "SUPPORT_EMAIL" >}}
 
-[[COMPANY_LEGAL]], [[COMPANY_ADDRESS]]
+{{< v "COMPANY_LEGAL" >}}, {{< v "COMPANY_ADDRESS" >}}

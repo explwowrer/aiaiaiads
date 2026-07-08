@@ -17,7 +17,7 @@ Kami membayar berdasarkan eCPM: pendapatan efektif per 1.000 impresi, yang mempe
 
 ## Format yang menghormati situs Anda
 
-Anda yang memilih apa yang berjalan. Mulai konservatif dengan iklan native dan banner; tambahkan Pulse Widget atau iklan Popunder saat Anda ingin mendorong pendapatan. Setiap unit dipindai dari malware sebelum mencapai pengunjung Anda.
+Anda yang memilih apa yang berjalan. Mulai konservatif dengan iklan native dan banner; tambahkan In-Page Push atau iklan Popunder saat Anda ingin mendorong pendapatan. Setiap unit dipindai dari malware sebelum mencapai pengunjung Anda.
 
 ## Tidak punya website? Tetap bisa.
 
@@ -25,6 +25,6 @@ Gunakan **Direct Link** — URL termonetisasi yang bisa Anda tempatkan di bio me
 
 ## Pembayaran {#payouts}
 
-[[PAYOUT_SCHEDULE]], minimum [[MIN_PAYOUT]]. Metode: [[PAYOUT_METHODS]]. Tidak ada satu pun pembayaran yang pernah membutuhkan tiket support untuk sampai. Mari pertahankan itu.
+{{< v "PAYOUT_SCHEDULE" >}}, minimum {{< v "MIN_PAYOUT" >}}. Metode: {{< v "PAYOUT_METHODS" >}}. Tidak ada satu pun pembayaran yang pernah membutuhkan tiket support untuk sampai. Mari pertahankan itu.
 
-[Mulai hasilkan uang]([[SIGNUP_PUBLISHER_URL]]){.btn .btn--earn}
+<a href="{{< v "SIGNUP_PUBLISHER_URL" >}}" class="btn btn--earn">Mulai hasilkan uang</a>

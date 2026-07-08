@@ -13,7 +13,7 @@ spec_verticals: "All verticals"
 tip_do: "Put it where curiosity peaks — 'continue' moments work best."
 tip_dont: "Mislabel the link's destination."
 related_formats:
-  - "/ad-formats/pulse-widget"
+  - "/ad-formats/native"
   - "/ad-formats/popunder"
 draft: false
 ---

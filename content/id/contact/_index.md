@@ -9,19 +9,19 @@ draft: false
 
 ### Support advertiser
 
-[[SUPPORT_EMAIL_ADV]]
+{{< v "SUPPORT_EMAIL_ADV" >}}
 
 ### Support publisher
 
-[[SUPPORT_EMAIL_PUB]]
+{{< v "SUPPORT_EMAIL_PUB" >}}
 
 ### Kemitraan & pers
 
-[[SUPPORT_EMAIL_BIZ]]
+{{< v "SUPPORT_EMAIL_BIZ" >}}
 
 ### Kirim pesan kepada kami
 
-<form class="contact-form" action="[[FORM_ENDPOINT]]" method="POST">
+<form class="contact-form" action="{{< v "FORM_ENDPOINT" >}}" method="POST">
   <div class="form-field">
     <label for="name">Nama Anda</label>
     <input type="text" id="name" name="name" required>
@@ -47,4 +47,4 @@ draft: false
 
 ### Laporkan iklan buruk
 
-Menemukan iklan buruk? Laporkan beserta URL penempatannya ke [[ABUSE_EMAIL]]. Kami menyelidiki setiap laporan dalam [[ABUSE_SLA]].
+Menemukan iklan buruk? Laporkan beserta URL penempatannya ke {{< v "ABUSE_EMAIL" >}}. Kami menyelidiki setiap laporan dalam {{< v "ABUSE_SLA" >}}.

@@ -8,7 +8,7 @@ draft: false
 
 ## 1. Definisi
 
-"Platform" berarti platform periklanan aiaiaiads yang dioperasikan oleh [[COMPANY_LEGAL]]. "Publisher" berarti setiap individu atau entitas yang membuat akun publisher di Platform. "Unit Iklan" berarti penempatan iklan pada properti Publisher. "Properti" berarti website, aplikasi, atau channel digital apa pun yang didaftarkan oleh Publisher.
+"Platform" berarti platform periklanan aiaiaiads yang dioperasikan oleh {{< v "COMPANY_LEGAL" >}}. "Publisher" berarti setiap individu atau entitas yang membuat akun publisher di Platform. "Unit Iklan" berarti penempatan iklan pada properti Publisher. "Properti" berarti website, aplikasi, atau channel digital apa pun yang didaftarkan oleh Publisher.
 
 ## 2. Pendaftaran akun
 
@@ -16,7 +16,7 @@ Untuk menggunakan Platform sebagai Publisher, Anda harus membuat akun dan member
 
 ## 3. Ketentuan pembayaran
 
-Pembayaran dilakukan [[PAYOUT_SCHEDULE]], tunduk pada saldo minimum [[MIN_PAYOUT]]. Metode pembayaran meliputi [[PAYOUT_METHODS]]. Platform berhak menahan pembayaran selama penyelidikan fraud.
+Pembayaran dilakukan {{< v "PAYOUT_SCHEDULE" >}}, tunduk pada saldo minimum {{< v "MIN_PAYOUT" >}}. Metode pembayaran meliputi {{< v "PAYOUT_METHODS" >}}. Platform berhak menahan pembayaran selama penyelidikan fraud.
 
 ## 4. Kewajiban publisher
 
@@ -48,7 +48,7 @@ Salah satu pihak dapat mengakhiri hubungan dengan pemberitahuan tertulis 7 hari.
 
 ## 11. Hukum yang berlaku
 
-Ketentuan ini diatur oleh hukum [[JURISDICTION]].
+Ketentuan ini diatur oleh hukum {{< v "JURISDICTION" >}}.
 
 ## 12. Perubahan Ketentuan
 

@@ -13,7 +13,7 @@ Best for reach, brand and formats where the view itself does the job (Popunder, 
 
 ### CPC — Cost per click
 
-Best when your landing page converts and you just need qualified visitors (In-Page Push, Native, Pulse Widget).
+Best when your landing page converts and you just need qualified visitors (In-Page Push, Native, Banner).
 
 ### CPA — Cost per action
 
@@ -27,6 +27,6 @@ Applies to all models: AutoBid to a target eCPA, per-placement custom bids, auto
 
 | Model | You pay for | Risk profile | Best formats | Min. budget |
 |---|---|---|---|---|
-| CPM | Impressions | You bear optimization risk | Popunder, Interstitial | [[MIN_BUDGET_CPM]] |
-| CPC | Clicks | Shared risk | In-Page Push, Native, Pulse Widget | [[MIN_BUDGET_CPC]] |
-| CPA | Actions | Network bears traffic risk | All formats | [[MIN_BUDGET_CPA]] |
+| CPM | Impressions | You bear optimization risk | Popunder, Interstitial | {{< v "MIN_BUDGET_CPM" >}} |
+| CPC | Clicks | Shared risk | In-Page Push, Native, Banner | {{< v "MIN_BUDGET_CPC" >}} |
+| CPA | Actions | Network bears traffic risk | All formats | {{< v "MIN_BUDGET_CPA" >}} |

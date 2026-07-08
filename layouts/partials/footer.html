@@ -4,12 +4,12 @@
       <div class="footer-col">
         <div class="footer-col-title">{{ i18n "nav_advertisers" }}</div>
         <a href="{{ "advertisers/" | relLangURL }}">{{ i18n "nav_advertisers" }}</a>
-        <a href="{{ "pricing-models/" | relLangURL }}">{{ i18n "nav_formats" }}</a>
+        <a href="{{ "pricing-models/" | relLangURL }}">{{ i18n "footer_pricing" }}</a>
       </div>
       <div class="footer-col">
         <div class="footer-col-title">{{ i18n "nav_publishers" }}</div>
         <a href="{{ "publishers/" | relLangURL }}">{{ i18n "nav_publishers" }}</a>
-        <a href="{{ "referral-program/" | relLangURL }}">{{ i18n "learn_more" }}</a>
+        <a href="{{ "referral-program/" | relLangURL }}">{{ i18n "footer_referral" }}</a>
       </div>
       <div class="footer-col">
         <div class="footer-col-title">{{ i18n "nav_formats" }}</div>
@@ -23,12 +23,12 @@
       <div class="footer-col">
         <div class="footer-col-title">{{ i18n "footer_company" }}</div>
         <a href="{{ "about/" | relLangURL }}">{{ i18n "footer_company" }}</a>
-        <a href="{{ "contact/" | relLangURL }}">{{ i18n "footer_contacts" }}</a>
+        <a href="{{ "contact/" | relLangURL }}">{{ i18n "footer_contact" }}</a>
       </div>
     </div>
 
     <div class="footer-bottom">
-      <div>&copy; {{ now.Year }} aiaiaiads. {{ site.Params.placeholders.COMPANY_LEGAL }}</div>
+      <div>&copy; {{ now.Year }} aiaiaiads. {{ index site.Data.site "COMPANY_LEGAL" }}</div>
       <div>
         <a href="{{ "legal/privacy/" | relLangURL }}">{{ i18n "footer_privacy" }}</a> &middot;
         <a href="{{ "legal/terms-advertisers/" | relLangURL }}">{{ i18n "footer_terms" }}</a> &middot;

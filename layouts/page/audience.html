@@ -2,7 +2,7 @@
 
 <section class="hero hero--audience section">
   <div class="container">
-    <h1>{{ .Title }}</h1>
+    <h1>{{ .Params.h1 | default .Title }}</h1>
     {{ with .Params.hero_sub }}<p class="hero-sub">{{ . }}</p>{{ end }}
   </div>
 </section>
