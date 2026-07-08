@@ -3,9 +3,8 @@ title: "推荐计划 | aiaiaiads"
 description: "邀请流量主加入 aiaiaiads，持续赚取其广告收入分成。与您的常规提现一起发放。"
 translationKey: "referral-program"
 draft: false
+h1: "认识有流量的人？那就是收入。"
 ---
-
-## 认识有流量的人？那就是收入。
 
 在后台获取您的专属推荐链接，分享出去，即可在 {{< v "REF_DURATION" >}} 内赚取被推荐流量主收入的 {{< v "REF_PERCENT" >}}。推荐奖励随您的常规提现一起发放——同样的周期，同样的方式。
 

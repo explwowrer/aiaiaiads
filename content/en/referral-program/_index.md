@@ -3,9 +3,8 @@ title: "Referral Program | aiaiaiads"
 description: "Invite publishers to aiaiaiads and earn a share of their ad revenue. Paid alongside your regular payouts."
 translationKey: "referral-program"
 draft: false
+h1: "Know someone with traffic? That's income."
 ---
-
-## Know someone with traffic? That's income.
 
 Grab your referral link in the dashboard, share it, and earn {{< v "REF_PERCENT" >}} of referred publishers' revenue for {{< v "REF_DURATION" >}}. Referral earnings ride along your normal payout — same schedule, same methods.
 

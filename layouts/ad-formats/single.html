@@ -12,7 +12,7 @@
       <span aria-current="page">{{ .Title }}</span>
     </nav>
 
-    <h1>{{ .Title }}</h1>
+    <h1>{{ .Params.h1 | default .Title }}</h1>
     {{ with .Description }}<p class="format-definition">{{ . }}</p>{{ end }}
 
     {{/* How it appears — CSS mock */}}

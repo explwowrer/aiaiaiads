@@ -3,9 +3,8 @@ title: "CPM、CPC 和 CPA 计价模式详解 | aiaiaiads"
 description: "按展示、点击或转化付费，竞价可全自动。了解哪种计价模式最适合您的广告活动目标。"
 translationKey: "pricing-models"
 draft: false
+h1: "为您在意的结果付费。"
 ---
-
-## 为您在意的结果付费。
 
 ### CPM——每千次展示费用
 

@@ -3,9 +3,8 @@ title: "联系我们 | aiaiaiads"
 description: "与真人对话。联系我们的广告主支持、流量主支持或商务合作团队。"
 translationKey: "contact"
 draft: false
+h1: "与真人对话。"
 ---
-
-## 与真人对话。
 
 ### 广告主支持
 

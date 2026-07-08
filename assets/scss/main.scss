@@ -1282,6 +1282,10 @@ h6 { font-size: 1rem; }
 .prose {
   max-width: 70ch;
 
+  > h1 {
+    margin-bottom: 1.5rem;
+  }
+
   p {
     margin-bottom: 1rem;
   }
@@ -1303,8 +1307,46 @@ h6 { font-size: 1rem; }
     margin-bottom: 0.75rem;
   }
 
+  h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
   a {
     text-decoration: underline;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+    font-size: 0.9375rem;
+
+    th, td {
+      padding: 0.625rem 0.75rem;
+      text-align: left;
+      border-bottom: 1px solid var(--line);
+    }
+
+    th {
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: 0.875rem;
+      color: #555;
+      background: var(--paper);
+    }
+  }
+
+  strong {
+    font-weight: 600;
+  }
+
+  blockquote {
+    border-left: 3px solid var(--ultramarine);
+    padding-left: 1rem;
+    margin-block: 1.5rem;
+    color: #555;
+    font-style: italic;
   }
 }
 

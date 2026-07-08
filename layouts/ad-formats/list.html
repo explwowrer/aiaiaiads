@@ -2,8 +2,8 @@
 
 <section class="section">
   <div class="container">
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
+    <h1 style="margin-bottom: 1rem;">{{ .Params.h1 | default .Title }}</h1>
+    <div class="prose" style="margin-bottom: 2rem;">{{ .Content }}</div>
     <div class="grid grid-3 format-hub-grid">
       {{ range .Pages }}
       <a href="{{ .RelPermalink }}" class="card format-hub-card">

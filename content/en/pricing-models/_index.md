@@ -3,9 +3,8 @@ title: "CPM, CPC & CPA Pricing Explained | aiaiaiads"
 description: "Pay for impressions, clicks, or conversions — and automate the bidding either way. See which pricing model fits your campaign goal."
 translationKey: "pricing-models"
 draft: false
+h1: "Pay for what matters to you."
 ---
-
-## Pay for what matters to you.
 
 ### CPM — Cost per 1,000 impressions
 

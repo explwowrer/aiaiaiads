@@ -3,9 +3,8 @@ title: "Penjelasan Harga CPM, CPC & CPA | aiaiaiads"
 description: "Bayar untuk impresi, klik, atau konversi — dan otomatiskan bidding-nya. Lihat model harga mana yang cocok untuk tujuan kampanye Anda."
 translationKey: "pricing-models"
 draft: false
+h1: "Bayar untuk yang penting bagi Anda."
 ---
-
-## Bayar untuk yang penting bagi Anda.
 
 ### CPM — Biaya per 1.000 impresi
 

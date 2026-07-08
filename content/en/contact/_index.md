@@ -3,9 +3,8 @@ title: "Contact Us | aiaiaiads"
 description: "Talk to a real human. Reach our advertiser support, publisher support, or partnerships team."
 translationKey: "contact"
 draft: false
+h1: "Talk to a human."
 ---
-
-## Talk to a human.
 
 ### Advertiser support
 

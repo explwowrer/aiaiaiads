@@ -3,9 +3,8 @@ title: "Tentang aiaiaiads — Jaringan Iklan AI-First"
 description: "Kami membangun jaringan iklan di mana machine learning yang mengoptimasi dan manusia yang peduli. Kenali aiaiaiads."
 translationKey: "about"
 draft: false
+h1: "Mesin yang mengoptimasi. Manusia yang peduli."
 ---
-
-## Mesin yang mengoptimasi. Manusia yang peduli.
 
 aiaiaiads dimulai dari satu kekesalan sederhana: jaringan iklan yang mengotomatiskan pendapatan mereka sendiri tetapi tidak pendapatan Anda. Jadi kami membangun kebalikannya — jaringan di mana modelnya bekerja untuk kedua sisi marketplace, memaksimalkan nilai dari setiap impresi, dan di mana support adalah manusia dengan konteks, bukan chatbot dengan empati kalengan.
 

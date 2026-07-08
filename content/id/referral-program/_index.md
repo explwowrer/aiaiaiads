@@ -3,9 +3,8 @@ title: "Program Referral | aiaiaiads"
 description: "Undang publisher ke aiaiaiads dan dapatkan bagian dari pendapatan iklan mereka. Dibayar bersamaan dengan payout reguler Anda."
 translationKey: "referral-program"
 draft: false
+h1: "Kenal seseorang dengan traffic? Itu penghasilan."
 ---
-
-## Kenal seseorang dengan traffic? Itu penghasilan.
 
 Ambil link referral Anda di dashboard, bagikan, dan dapatkan {{< v "REF_PERCENT" >}} dari pendapatan publisher yang Anda referensikan selama {{< v "REF_DURATION" >}}. Penghasilan referral mengikuti payout normal Anda — jadwal sama, metode sama.
 

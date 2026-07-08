@@ -3,9 +3,8 @@ title: "Hubungi Kami | aiaiaiads"
 description: "Bicara dengan manusia sungguhan. Hubungi tim support advertiser, publisher, atau kemitraan kami."
 translationKey: "contact"
 draft: false
+h1: "Bicara dengan manusia."
 ---
-
-## Bicara dengan manusia.
 
 ### Support advertiser
 

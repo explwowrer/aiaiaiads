@@ -3,9 +3,8 @@ title: "About aiaiaiads — The AI-First Ad Network"
 description: "We're building the ad network where machine learning does the optimizing and humans do the caring. Meet aiaiaiads."
 translationKey: "about"
 draft: false
+h1: "Machines optimize. Humans care."
 ---
-
-## Machines optimize. Humans care.
 
 aiaiaiads started with a simple irritation: ad networks that automate their revenue but not yours. So we built the opposite — a network where the model works for both sides of the marketplace, squeezing more value out of every impression, and where support is a person with context, not a chatbot with canned empathy.
 
